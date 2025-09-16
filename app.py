@@ -19,7 +19,7 @@ def recommend(movie):
 
 
 # --- Streamlit UI ---
-st.header("Cinematch - Movie Recommender System")
+st.header("🎬 Movie Recommender System")
 
 movies = pickle.load(open("movie_list.pkl", "rb"))
 similarity = pickle.load(open("similarity.pkl", "rb"))
